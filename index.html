@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Keyla Nyacyesa Bineza - Resume</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">Keyla Bineza</div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+<section id="about" class="section about-section">
+      <div class="about-content">
+        <h1>Keyla Nyacyesa Bineza</h1>
+        <p>Passionate software engineer with expertise in web development, eager to create impactful digital experiences.</p>
+        <ul class="personal-info">
+          <li><strong>Date of Birth:</strong> August 12, 2004</li>
+          <li><strong>Location:</strong> Kigali, Rwanda</li>
+          <li><strong>Email:</strong> k.nyacyesa@alustudent.com</li>
+          <li><strong>Phone:</strong> +250793939393</li>
+        </ul>
+      </div>
+      <div class="about-illustration">
+        <<thinking>
+The user wants me to insert an illustration with a perfect background into the resume website. This likely means adding a visually appealing image or SVG illustration in a suitable section, such as the About or header area, with a background that complements the overall design.
+
+Plan:
+- Choose a suitable illustration (could be a placeholder or a simple SVG).
+- Add the illustration to the About section or header in index.html.
+- Style the illustration and background in style.css to ensure it looks professional and fits well with the layout.
+- Ensure the illustration is responsive and does not interfere with content readability.
+
+I will proceed to update index.html to add an illustration in the About section and update style.css to style the illustration and background.
+
+Next step: update index.html and style.css to add and style the illustration with background.
+</thinking>
+
+<edit_file>
+<path>index.html</path>
+<content>
+<<<<<<< SEARCH
+<section id="about" class="section">
+      <h1>Keyla Nyacyesa Bineza</h1>
+      <p>Passionate software engineer with expertise in web development, eager to create impactful digital experiences.</p>
+      <ul class="personal-info">
+        <li><strong>Date of Birth:</strong> August 12, 2004</li>
+        <li><strong>Location:</strong> Kigali, Rwanda</li>
+        <li><strong>Email:</strong> k.nyacyesa@alustudent.com</li>
+        <li><strong>Phone:</strong> +250793939393</li>
+      </ul>
+    </section>
+=======
+<section id="about" class="section about-section">
+      <div class="about-content">
+        <h1>Keyla Nyacyesa Bineza</h1>
+        <p>Passionate software engineer with expertise in web development, eager to create impactful digital experiences.</p>
+        <ul class="personal-info">
+          <li><strong>Date of Birth:</strong> August 12, 2004</li>
+          <li><strong>Location:</strong> Kigali, Rwanda</li>
+          <li><strong>Email:</strong> k.nyacyesa@alustudent.com</li>
+          <li><strong>Phone:</strong> +250793939393</li>
+        </ul>
+      </div>
+      <div class="about-illustration" aria-hidden="true">
+        <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a laptop and code">
+          <rect width="300" height="300" fill="#007acc" rx="20"/>
+          <rect x="50" y="70" width="200" height="160" fill="#ffffff" rx="10"/>
+          <rect x="70" y="100" width="160" height="20" fill="#007acc" rx="5"/>
+          <rect x="70" y="140" width="160" height="20" fill="#007acc" rx="5"/>
+          <rect x="70" y="180" width="160" height="20" fill="#007acc" rx="5"/>
+          <rect x="120" y="230" width="60" height="10" fill="#004a99" rx="3"/>
+        </svg>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5, CSS3, JavaScript (ES6+)</li>
+        <li>Responsive Web Design</li>
+        <li>Version Control (Git)</li>
+        <li>React.js & Vue.js basics</li>
+        <li>RESTful APIs</li>
+      </ul>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Work Experience</h2>
+      <article>
+        <h3>Receptionist - Clinique Medicale de L' Arche</h3>
+        <p class="date">Sep 2023 - Jun 2024 | Rubavu, Rwanda</p>
+        <ul>
+          <li>Welcomed and guided patients ensuring satisfaction and service quality.</li>
+          <li>Handled customer complaints with strong communication and problem-solving skills.</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Intern - Land for Women Foundation</h3>
+        <p class="date">Aug 2023 | Kigali, Rwanda</p>
+        <ul>
+          <li>Assisted with community programs focused on women empowerment.</li>
+          <li>Coordinated the Legacy of War Foundation celebration event.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <article>
+        <h3>Bachelor of Science in Software Engineering</h3>
+        <p class="date">2024 - 2028</p>
+      </article>
+      <article>
+        <h3>Gashora Girls Academy of Science and Technology</h3>
+        <p class="date">2020 - 2023</p>
+      </article>
+      <article>
+        <h3>Byimana School of Sciences</h3>
+        <p class="date">2017 - 2019</p>
+      </article>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects-slider">
+        <button class="prev-btn" aria-label="Previous project">&#10094;</button>
+        <div class="projects-wrapper">
+          <article class="project active">
+            <h3>Portfolio Website</h3>
+            <p>Responsive portfolio website built with HTML, CSS, and JavaScript.</p>
+          </article>
+          <article class="project">
+            <h3>Task Manager App</h3>
+            <p>Task management app with local storage and dynamic UI.</p>
+          </article>
+          <article class="project">
+            <h3>Data Visualization Dashboard</h3>
+            <p>Interactive dashboard using Chart.js for data visualization.</p>
+          </article>
+        </div>
+        <button class="next-btn" aria-label="Next project">&#10095;</button>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <form id="contact-form" novalidate>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required minlength="2" />
+        <span class="error-message" id="name-error"></span>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <span class="error-message" id="email-error"></span>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required minlength="10"></textarea>
+        <span class="error-message" id="message-error"></span>
+
+        <button type="submit">Send</button>
+        <p class="form-success" id="form-success"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Keyla Nyacyesa Bineza. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
