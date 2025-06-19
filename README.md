@@ -2,6 +2,8 @@
 
 A modern, responsive personal CV/Portfolio website showcasing my professional experience, skills, and projects.
 
+🌐 [Live Demo](https://keylanyacyesa.github.io/CV_Website/) | 💻 [GitHub Repository](https://github.com/KeylaNyacyesa/CV_Website)
+
 ![Portfolio Preview](keyla.jpg)
 
 ## 🌟 Features
@@ -59,7 +61,7 @@ A modern, responsive personal CV/Portfolio website showcasing my professional ex
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/CV_Website.git
+   git clone https://github.com/KeylaNyacyesa/CV_Website.git
    ```
 
 2. Navigate to the project directory:
