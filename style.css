@@ -1,0 +1,35 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  background: linear-gradient(135deg, #007acc 0%, #005fa3 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  color: #ffffff;
+}
+
+.about-content {
+  flex: 1;
+  max-width: 55%;
+}
+
+.about-content h1,
+.about-content p,
+.about-content ul {
+  color: #ffffff;
+}
+
+.about-illustration {
+  flex: 1;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 95, 163, 0.6);
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
